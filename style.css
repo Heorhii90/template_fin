@@ -1,0 +1,1444 @@
+body {
+    scroll-behavior: smooth;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  
+  .b-page_head {
+    font-family: 'OpenSans', sans-serif;
+    src: url("../fonts/OpenSans-Light.ttf");
+    font-size: 0.747rem;
+    font-weight: 300;
+  }
+  
+  .b-page_head :hover {
+    color: #000000;
+  }
+  
+  .b-page_head :active {
+    color: #1A63BC;
+  }
+  
+  .b-page_head a {
+    color: #fefefe;
+    text-decoration: none;
+  }
+  
+  .b-page_head .b-navbar_top .b-navbar_link {
+    color: #fefefe;
+  }
+  
+  .b-page_head .b-navbar_top .b-navbar_link:hover {
+    color: #000000;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  
+  .b-navbar__sprite-login {
+    background: url(../static/template_fin.png) no-repeat -1067px -6px;
+  }
+  
+  .b-page_head, .b-navbar_top {
+    background-color: #1abc9c;
+    color: #fefefe;
+  }
+  
+  .b-navbar_top {
+    position: absolute;
+    z-index: 2;
+    padding: 0;
+  }
+  
+  .b-navbar_top .b-navbar_top_button {
+    position: relative;
+    left: 37px;
+  }
+  
+  @media all and (min-width: 992px) {
+    .b-page_head {
+      padding-bottom: 1.2%;
+    }
+    .b-phone {
+      display: inline-block;
+      position: relative;
+      left: 17%;
+      top: 30%;
+    }
+    .b-phone a {
+      margin-right: 25px;
+    }
+    .b-page_head .b-navbar_top .b-navbar_link {
+      position: relative;
+      left: 26%;
+      margin-right: 11px;
+      padding-left: 18px;
+    }
+  }
+  
+  .b-head_navbar {
+    text-align: center;
+    padding: 0;
+    font-family: 'OpenSans', sans-serif;
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-size: 0.747rem;
+    font-weight: 700;
+  }
+  
+  .b-head_navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .b-head__sprite a {
+    color: #000000;
+  }
+  
+  .b-head__sprite a:hover {
+    text-decoration: none;
+    color: #1abc9c;
+  }
+  
+  li {
+    background-color: rgba(26, 188, 156, 0.2);
+    display: inline;
+  }
+  
+  li a {
+    color: #fefefe;
+    text-decoration: none;
+    color: #0f0101;
+  }
+  
+  li :hover {
+    color: #1abc9c;
+    text-decoration: none;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  
+  .b-head__logo {
+    font-size: 1.601rem;
+    color: #555252;
+    font-weight: 300;
+    padding: 7.5% 10%;
+  }
+  
+  .b-head__logo span {
+    color: #1abc9c;
+    font-weight: 900;
+  }
+  
+  .b-head__sprite-lupa {
+    display: inline-block;
+    background: url(../static/template_fin.png) no-repeat -1044px -73px;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+  }
+  
+  .b-head__sprite-lupa span {
+    padding: 12px 0 10px 25px;
+  }
+  
+  .b-head__sprite-lock {
+    display: inline-block;
+    background: url(../static/template_fin.png) no-repeat -1137px -64px;
+    width: 18px;
+    height: 25px;
+  }
+  
+  .b-head__sprite {
+    position: absolute;
+    left: 60%;
+    top: 9%;
+  }
+  
+  @media all and (min-width: 992px) {
+    .b-head__logo {
+      position: relative;
+      left: 28%;
+      top: 4px;
+    }
+    .b-head__sprite {
+      position: relative;
+      left: 0;
+    }
+    .b-head_navbar ul li {
+      background-color: #ffffff;
+      padding: 0 2%;
+    }
+    .b-head_navbar ul li a {
+      position: relative;
+      top: 8px;
+      right: 30px;
+    }
+  }
+  
+  .b-setting__sprite-setting, .b-setting__sprite-money, .b-setting__sprite-worldwide, .b-setting__sprite-worldwide-shipping {
+    background: url(../static/template_fin.png) no-repeat;
+    margin: 5% auto;
+    width: 58px;
+    height: 58px;
+  }
+  
+  .b-setting__sprite-setting {
+    background-position: -291px -785px;
+  }
+  
+  .b-setting__sprite-setting:hover {
+    background-position: -292px -716px;
+  }
+  
+  .b-setting__sprite-money {
+    background-position: -531px -785px;
+  }
+  
+  .b-setting__sprite-money:hover {
+    background-position: -532px -716px;
+  }
+  
+  .b-setting__sprite-worldwide {
+    background-position: -781px -785px;
+  }
+  
+  .b-setting__sprite-worldwide:hover {
+    background-position: -782px -716px;
+  }
+  
+  .b-setting__sprite-worldwide-shipping {
+    background-position: -1026px -789px;
+  }
+  
+  .b-setting__sprite-worldwide-shipping:hover {
+    background-position: -1027px -720px;
+  }
+  
+  .b-setting {
+    text-align: center;
+  }
+  
+  .b-setting a {
+    text-decoration: none;
+  }
+  
+  .b-setting a h3 {
+    color: #555252;
+    font-family: 'OpenSans', sans-serif;
+    src: url("../fonts/OpenSans-Semibold.ttf");
+    font-size: 0.961rem;
+    font-weight: 600;
+  }
+  
+  .b-setting a :hover {
+    color: #1abc9c;
+    text-decoration: none;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  
+  .b-setting a :active {
+    color: #1A63BC;
+  }
+  
+  .b-setting p {
+    color: #555252;
+    font-family: 'OpenSans', sans-serif;
+    src: url("../fonts/OpenSans-Light.ttf");
+    font-size: 0.747rem;
+    font-weight: 300;
+  }
+  
+  @media all and (min-width: 992px) {
+    .b-setting {
+      padding: 6% 0.5% 4% 1%;
+    }
+    .b-setting a h3 {
+      padding-top: 15%;
+    }
+    .b-setting p {
+      padding-top: 8%;
+    }
+  }
+  
+  .b-new-collection {
+    background-color: #EBF2FD;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 20px;
+    padding: 10% 0 2% 0;
+    color: #555252;
+  }
+  
+  .b-line {
+    border-bottom: 2px solid #1abc9c;
+    border-top: 2px solid #1abc9c;
+    padding: 2px 0;
+    width: 40%;
+    margin: 0 auto;
+  }
+  
+  .b-line > hr {
+    height: 7px;
+    background-color: #1abc9c;
+  }
+  
+  hr {
+    margin: 0;
+    border: 0;
+  }
+  
+  .b-new-collection__sprite-blue-tshirt :hover, .b-new-collection__sprite-woman-shirt :hover,
+  .b-new-collection__sprite-yellow-tshirt :hover, .b-new-collection__sprite-cool-lingerie :hover,
+  .b-freatured_products__blue-tshirt :hover, .b-freatured_products__women-shirt :hover,
+  .b-freatured_products__yellow-tshirt :hover, .b-freatured_products__cool-lingerie :hover,
+  .b-freatured_products__tshirt-blue :hover, .b-freatured_products__shirt-women :hover,
+  .b-freatured_products__tshirt-yellow :hover, .b-freatured_products__lingerie :hover,
+  .b-best-sellers__sprite-blue-tshirt :hover, .b-best-sellers__sprite-woman-shirt :hover,
+  .b-best-sellers__sprite-yellow-tshirt :hover, .b-best-sellers__sprite-cool-lingerie :hover {
+    background-color: #1abc9c;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+  }
+  
+  .b-new-collection__sprite-blue-tshirt .b-hover, .b-new-collection__sprite-woman-shirt .b-hover,
+  .b-new-collection__sprite-yellow-tshirt .b-hover, .b-new-collection__sprite-cool-lingerie .b-hover,
+  .b-freatured_products__blue-tshirt .b-hover, .b-freatured_products__women-shirt .b-hover,
+  .b-freatured_products__yellow-tshirt .b-hover, .b-freatured_products__cool-lingerie .b-hover,
+  .b-freatured_products__tshirt-blue .b-hover, .b-freatured_products__shirt-women .b-hover,
+  .b-freatured_products__tshirt-yellow .b-hover, .b-freatured_products__lingerie .b-hover,
+  .b-best-sellers__sprite-blue-tshirt .b-hover, .b-best-sellers__sprite-woman-shirt .b-hover,
+  .b-best-sellers__sprite-yellow-tshirt .b-hover, .b-best-sellers__sprite-cool-lingerie .b-hover {
+    opacity: 0;
+    z-index: 2;
+    width: 200px;
+    height: 230px;
+    background-color: rgba(105, 105, 105, 0.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto auto 17% auto;
+  }
+  
+  .b-new-collection__sprite-blue-tshirt .b-hover__sprite-like, .b-new-collection__sprite-woman-shirt .b-hover__sprite-like,
+  .b-new-collection__sprite-yellow-tshirt .b-hover__sprite-like, .b-new-collection__sprite-cool-lingerie .b-hover__sprite-like,
+  .b-freatured_products__blue-tshirt .b-hover__sprite-like, .b-freatured_products__women-shirt .b-hover__sprite-like,
+  .b-freatured_products__yellow-tshirt .b-hover__sprite-like, .b-freatured_products__cool-lingerie .b-hover__sprite-like,
+  .b-freatured_products__tshirt-blue .b-hover__sprite-like, .b-freatured_products__shirt-women .b-hover__sprite-like,
+  .b-freatured_products__tshirt-yellow .b-hover__sprite-like, .b-freatured_products__lingerie .b-hover__sprite-like,
+  .b-best-sellers__sprite-blue-tshirt .b-hover__sprite-like, .b-best-sellers__sprite-woman-shirt .b-hover__sprite-like,
+  .b-best-sellers__sprite-yellow-tshirt .b-hover__sprite-like, .b-best-sellers__sprite-cool-lingerie .b-hover__sprite-like {
+    width: 44px;
+    height: 44px;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 40% 13%;
+  }
+  
+  .b-new-collection__sprite-blue-tshirt .b-hover__sprite-line, .b-new-collection__sprite-woman-shirt .b-hover__sprite-line,
+  .b-new-collection__sprite-yellow-tshirt .b-hover__sprite-line, .b-new-collection__sprite-cool-lingerie .b-hover__sprite-line,
+  .b-freatured_products__blue-tshirt .b-hover__sprite-line, .b-freatured_products__women-shirt .b-hover__sprite-line,
+  .b-freatured_products__yellow-tshirt .b-hover__sprite-line, .b-freatured_products__cool-lingerie .b-hover__sprite-line,
+  .b-freatured_products__tshirt-blue .b-hover__sprite-line, .b-freatured_products__shirt-women .b-hover__sprite-line,
+  .b-freatured_products__tshirt-yellow .b-hover__sprite-line, .b-freatured_products__lingerie .b-hover__sprite-line,
+  .b-best-sellers__sprite-blue-tshirt .b-hover__sprite-line, .b-best-sellers__sprite-woman-shirt .b-hover__sprite-line,
+  .b-best-sellers__sprite-yellow-tshirt .b-hover__sprite-line, .b-best-sellers__sprite-cool-lingerie .b-hover__sprite-line {
+    width: 44px;
+    height: 44px;
+    background-color: none;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 40% 38%;
+    z-index: 3;
+  }
+  
+  .b-new-collection__sprite-blue-tshirt .b-hover__sprite-clok, .b-new-collection__sprite-woman-shirt .b-hover__sprite-clok,
+  .b-new-collection__sprite-yellow-tshirt .b-hover__sprite-clok, .b-new-collection__sprite-cool-lingerie .b-hover__sprite-clok,
+  .b-freatured_products__blue-tshirt .b-hover__sprite-clok, .b-freatured_products__women-shirt .b-hover__sprite-clok,
+  .b-freatured_products__yellow-tshirt .b-hover__sprite-clok, .b-freatured_products__cool-lingerie .b-hover__sprite-clok,
+  .b-freatured_products__tshirt-blue .b-hover__sprite-clok, .b-freatured_products__shirt-women .b-hover__sprite-clok,
+  .b-freatured_products__tshirt-yellow .b-hover__sprite-clok, .b-freatured_products__lingerie .b-hover__sprite-clok,
+  .b-best-sellers__sprite-blue-tshirt .b-hover__sprite-clok, .b-best-sellers__sprite-woman-shirt .b-hover__sprite-clok,
+  .b-best-sellers__sprite-yellow-tshirt .b-hover__sprite-clok, .b-best-sellers__sprite-cool-lingerie .b-hover__sprite-clok {
+    width: 44px;
+    height: 44px;
+    background-color: none;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 40% 63%;
+    z-index: 3;
+  }
+  
+  .b-new-collection__sprite-blue-tshirt :hover, .b-new-collection__sprite-woman-shirt :hover,
+  .b-new-collection__sprite-yellow-tshirt :hover, .b-new-collection__sprite-cool-lingerie :hover,
+  .b-freatured_products__blue-tshirt :hover, .b-freatured_products__women-shirt :hover,
+  .b-freatured_products__yellow-tshirt :hover, .b-freatured_products__cool-lingerie :hover,
+  .b-freatured_products__tshirt-blue :hover, .b-freatured_products__shirt-women :hover,
+  .b-freatured_products__tshirt-yellow :hover, .b-freatured_products__lingerie :hover,
+  .b-best-sellers__sprite-blue-tshirt :hover, .b-best-sellers__sprite-woman-shirt :hover,
+  .b-best-sellers__sprite-yellow-tshirt :hover, .b-best-sellers__sprite-cool-lingerie :hover {
+    opacity: 1;
+  }
+  
+  .b-hover__sprite-like .b-hover__like, .b-hover__sprite-like .b-hover__line, .b-hover__sprite-like .b-hover__clok, .b-hover__sprite-line .b-hover__like, .b-hover__sprite-line .b-hover__line, .b-hover__sprite-line .b-hover__clok, .b-hover__sprite-clok .b-hover__like, .b-hover__sprite-clok .b-hover__line, .b-hover__sprite-clok .b-hover__clok {
+    z-index: 2;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .b-hover__sprite-like .b-hover__like {
+    background: url(../static/basket.png) no-repeat -501px -1321px;
+  }
+  
+  .b-hover__sprite-line .b-hover__line {
+    background: url(../static/basket.png) no-repeat -551px -1322px;
+  }
+  
+  .b-hover__sprite-clok .b-hover__clok {
+    background: url(../static/basket.png) no-repeat -601px -1320px;
+  }
+  
+  .b-price {
+    height: 12%;
+    background-color: #252525;
+    width: 218px;
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+    font-size: 0.961rem;
+    font-weight: 900;
+  }
+  
+  .b-price span {
+    position: relative;
+    left: 15px;
+    top: 4px;
+  }
+  
+  .b-cost {
+    width: 20%;
+    background-color: #868686;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #ffffff;
+    font-size: 0.961rem;
+    font-weight: 900;
+  }
+  
+  .b-cost span {
+    position: relative;
+    left: 8px;
+  }
+  
+  .b-cost span:hover {
+    background-color: #82DBC9;
+  }
+  
+  .b-cost:hover {
+    background-color: #82DBC9;
+  }
+  
+  .b-hover__sprite-basket {
+    width: 143px;
+    height: 43px;
+    background-color: none;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 65% 13%;
+    z-index: 3;
+  }
+  
+  .b-hover__sprite-basket .b-hover__basket {
+    background: url(../static/basket.png) no-repeat -502px -1367px;
+    height: 24px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .b-hover__sprite-basket:hover {
+    background-color: #000000;
+  }
+  
+  .b-hover__basket span {
+    color: #ffffff;
+    font-size: 0.747rem;
+    position: relative;
+    left: 40px;
+  }
+  
+  .b-hover__basket span:hover {
+    background-color: #000000;
+  }
+  
+  .b-new-collection__sprite-blue-tshirt, .b-new-collection__sprite-woman-shirt, .b-new-collection__sprite-yellow-tshirt, .b-new-collection__sprite-cool-lingerie {
+    background: url(../static/template_fin.png) no-repeat;
+    width: 218px;
+    height: 276px;
+    margin: 5% auto;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .b-new-collection__sprite-blue-tshirt {
+    background-position: -209px -1232px;
+  }
+  
+  .b-new-collection__sprite-woman-shirt {
+    background-position: -452px -1232px;
+  }
+  
+  .b-new-collection__sprite-yellow-tshirt {
+    background-position: -696px -1234px;
+  }
+  
+  .b-new-collection__sprite-cool-lingerie {
+    background-position: -940px -1234px;
+  }
+  
+  @media all and (min-width: 992px) {
+    .b-line {
+      width: 13%;
+    }
+    h2 {
+      text-align: center;
+      padding: 7.5% 0 1% 0;
+      color: #555252;
+      letter-spacing: -1.5px;
+      font-family: 'Roboto', sans-serif;
+      src: url("../fonts/Robotomedium.ttf");
+      src: url("../fonts/Robotomedium.woff");
+      src: url("../fonts/Robotomedium.woff2");
+      font-size: 2.561rem;
+      font-weight: 700;
+    }
+    .b-new-collection__sprite-blue-tshirt, .b-new-collection__sprite-woman-shirt, .b-new-collection__sprite-yellow-tshirt, .b-new-collection__sprite-cool-lingerie {
+      margin: 25% auto;
+    }
+  }
+  
+  .b-choice {
+    font-size: 0.854rem;
+    margin: 10% auto 5% auto;
+    color: #ffffff;
+  }
+  
+  .b-choice div {
+    margin: 1%;
+    text-align: center;
+    border-radius: 3px;
+  }
+  
+  .b-choice div button {
+    font-size: 0.854rem;
+    background-color: #ffffff;
+    color: #555252;
+    border: 0.85375px solid #959595;
+    border-radius: 3px;
+    padding: 1px 10px;
+  }
+  
+  .b-choice button:hover {
+    color: #ffffff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  
+  .b-choice button:focus {
+    opacity: 0.7;
+    color: #000000;
+    background-color: #1abc9c;
+  }
+  
+  .b-freatured_products__new, .b-freatured_products__sale {
+    width: 61px;
+    height: 28px;
+    border: 0.85375px solid #000000;
+    z-index: 2;
+    position: absolute;
+    top: 9px;
+    right: 148px;
+    text-align: center;
+  }
+  
+  .b-freatured_products__sale {
+    right: 10px;
+  }
+  
+  .b-freatured_products__blue-tshirt, .b-freatured_products__women-shirt, .b-freatured_products__yellow-tshirt, .b-freatured_products__cool-lingerie, .b-freatured_products__tshirt-blue, .b-freatured_products__shirt-women, .b-freatured_products__tshirt-yellow, .b-freatured_products__lingerie {
+    background: url(../static/template_fin.png) no-repeat;
+    width: 218px;
+    height: 276px;
+    margin: 5% auto;
+    position: relative;
+  }
+  
+  .b-freatured_products__blue-tshirt {
+    background-position: -209px -1929px;
+  }
+  
+  .b-freatured_products__women-shirt {
+    background-position: -452px -1929px;
+  }
+  
+  .b-freatured_products__yellow-tshirt {
+    background-position: -695px -1929px;
+  }
+  
+  .b-freatured_products__cool-lingerie {
+    background-position: -939px -1929px;
+  }
+  
+  .b-freatured_products__tshirt-blue {
+    background-position: -209px -2229px;
+  }
+  
+  .b-freatured_products__shirt-women {
+    background-position: -452px -2229px;
+  }
+  
+  .b-freatured_products__tshirt-yellow {
+    background-position: -695px -2229px;
+  }
+  
+  .b-freatured_products__lingerie {
+    background-position: -939px -2229px;
+  }
+  
+  @media all and (min-width: 992px) {
+    .b-choice {
+      margin: 7% auto;
+    }
+    .b-choice div {
+      border: none;
+      margin: 0;
+    }
+    .b-choice div div {
+      display: inline-block;
+      margin: 0 5px;
+    }
+    .b-choice div a {
+      border: 0.86px solid #959595;
+      border-radius: 3px;
+      padding: 3px 7px;
+    }
+    .b-choice .b-choice__all {
+      background-color: #ffffff;
+      display: inline-block;
+      width: 33px;
+      height: 33px;
+      border: 0.85375px solid #323232;
+      border-radius: 50%;
+      position: relative;
+      left: 55px;
+      bottom: 28px;
+      color: #1abc9c;
+      font-size: 1.067rem;
+      font-weight: 700;
+      z-index: 2;
+    }
+  }
+  
+  @media all and (min-width: 1200px) {
+    .my-width {
+      width: 78%;
+    }
+  }
+  
+  .b-sale {
+    color: #ffffff;
+    position: relative;
+  }
+  
+  .b-sale h3 {
+    color: #ffffff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 15px;
+    font-weight: 900;
+  }
+  
+  .b-sale p {
+    color: #ffffff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 11px;
+    z-index: 2;
+  }
+  
+  .b-sale img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+  }
+  
+  @media all and (min-width: 768px) {
+    .b-sale h3 {
+      font-size: 2rem;
+    }
+    .b-sale p {
+      font-size: 1.221rem;
+    }
+  }
+  
+  @media all and (min-width: 992px) {
+    .b-sale {
+      margin-top: 7%;
+    }
+    .b-sale h3 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .b-sale p {
+      font-size: 1.921rem;
+      font-weight: 300;
+    }
+  }
+  
+  @media all and (min-width: 1200px) {
+    .b-sale h3 {
+      font-size: 3.201rem;
+    }
+  }
+  
+  .b-best-sellers__background {
+    background-color: #e9f0fd;
+  }
+  
+  .b-best-sellers__sprite-blue-tshirt, .b-best-sellers__sprite-woman-shirt, .b-best-sellers__sprite-yellow-tshirt, .b-best-sellers__sprite-cool-lingerie {
+    background: url(../static/template_fin.png) no-repeat;
+    width: 218px;
+    height: 276px;
+    margin: 5% auto;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .b-best-sellers__sprite-blue-tshirt {
+    background-position: -209px -1232px;
+  }
+  
+  .b-best-sellers__sprite-woman-shirt {
+    background-position: -452px -1232px;
+  }
+  
+  .b-best-sellers__sprite-yellow-tshirt {
+    background-position: -696px -1234px;
+  }
+  
+  .b-best-sellers__sprite-cool-lingerie {
+    background-position: -940px -1234px;
+  }
+  
+  @media all and (min-width: 992px) {
+    .b-best-sellers__sprite-blue-tshirt, .b-best-sellers__sprite-woman-shirt, .b-best-sellers__sprite-yellow-tshirt, .b-best-sellers__sprite-cool-lingerie {
+      margin: 25% auto;
+    }
+  }
+  
+  .b-review__sprite {
+    background: url(../static/template_fin.png) no-repeat -587px -3727px;
+    width: 190px;
+    height: 190px;
+    margin: 15% auto 10% auto;
+  }
+  
+  .b-review__text {
+    text-align: center;
+    font-size: 0.747rem;
+    color: #555252;
+  }
+  
+  .b-review__text-user h4 {
+    text-align: center;
+    color: #1abc9c;
+    font-size: 0.961rem;
+    margin: 0;
+  }
+  
+  .b-review__text-user div {
+    text-align: center;
+    font-size: 0.747rem;
+    color: #555252;
+    font-weight: 300;
+    margin-bottom: 1%;
+  }
+  
+  .b-review__sprite-left, .b-review__sprite-center, .b-review__sprite-right {
+    background: url(../static/template_fin.png) no-repeat;
+    width: 71px;
+    height: 71px;
+    margin: 10% auto 20% auto;
+  }
+  
+  .b-review__sprite-left {
+    background-position: -559px -4073px;
+  }
+  
+  .b-review__sprite-center {
+    background-position: -648px -4073px;
+  }
+  
+  .b-review__sprite-right {
+    background-position: -735px -4073px;
+  }
+  
+  @media all and (min-width: 992px) {
+    .b-review__sprite {
+      margin: 6% auto 1.5% auto;
+    }
+  }
+  
+  .b-newsletter {
+    background: url(../static/newsletter.png) no-repeat;
+    margin-top: 2%;
+    text-align: center;
+  }
+  
+  .b-newsletter .b-line {
+    border-color: #ffffff;
+  }
+  
+  .b-newsletter .b-line > hr {
+    background-color: #ffffff;
+  }
+  
+  .b-newsletter ::-webkit-input-placeholder {
+    color: #555252;
+    font-size: 0.854rem;
+    font-weight: 300;
+  }
+  
+  .b-newsletter :-ms-input-placeholder {
+    color: #555252;
+    font-size: 0.854rem;
+    font-weight: 300;
+  }
+  
+  .b-newsletter ::-ms-input-placeholder {
+    color: #555252;
+    font-size: 0.854rem;
+    font-weight: 300;
+  }
+  
+  .b-newsletter ::placeholder {
+    color: #555252;
+    font-size: 0.854rem;
+    font-weight: 300;
+  }
+  
+  .b-newsletter p {
+    text-align: center;
+    font-size: 0.854rem;
+    color: #ffffff;
+    font-weight: 300;
+    margin-top: 2%;
+  }
+  
+  .b-newsletter input {
+    background-color: #ffffff;
+    width: 256px;
+    height: 52px;
+    padding: 20px;
+  }
+  
+  .b-newsletter input:focus {
+    color: #1abc9c;
+  }
+  
+  .b-newsletter form {
+    margin: 0 auto;
+    padding-bottom: 10%;
+    color: #000000;
+  }
+  
+  .b-newsletter form button {
+    background-color: #4ec6ab;
+    width: 77px;
+    height: 49px;
+    border: 1px solid #ffffff;
+    position: relative;
+    left: 89px;
+    bottom: 57px;
+  }
+  
+  .b-newsletter form span {
+    display: block;
+    background: url(../static/template_fin.png) no-repeat -840px -4487px;
+    width: 42px;
+    height: 24px;
+    position: relative;
+    left: 9px;
+    bottom: 0;
+  }
+  
+  @media all and (min-width: 368px) {
+    .b-newsletter form button {
+      position: relative;
+      left: -44px;
+      top: 17px;
+    }
+    .b-newsletter form span {
+      display: block;
+      left: 14px;
+      bottom: 0;
+    }
+    .b-newsletter input {
+      position: relative;
+      left: 39px;
+    }
+  }
+  
+  @media all and (min-width: 768px) {
+    .b-newsletter form button {
+      position: absolute;
+      left: 409px;
+      top: 15px;
+    }
+    .b-newsletter form div {
+      left: 415px;
+      bottom: 52px;
+    }
+    .b-newsletter input {
+      left: 0;
+    }
+  }
+  
+  @media all and (min-width: 992px) {
+    .b-newsletter form {
+      position: relative;
+      top: 25px;
+    }
+    .b-newsletter input {
+      width: 462px;
+      height: 52px;
+    }
+    .b-newsletter form button {
+      background-color: #4ec6ab;
+      width: 77px;
+      height: 49px;
+      position: absolute;
+      left: 618px;
+      top: 19.5px;
+      border: 1px solid #ffffff;
+    }
+    .b-newsletter form div {
+      left: 638px;
+      bottom: 57px;
+    }
+  }
+  
+  @media all and (min-width: 1200px) {
+    .b-newsletter form button {
+      left: 707px;
+      top: 24px;
+    }
+    .b-newsletter form div {
+      left: 729px;
+      bottom: 59px;
+    }
+  }
+  
+  .b-our-partner {
+    background-color: #ECF1FD;
+  }
+  
+  .b-our-partner__sprite-howard, .b-our-partner__sprite-auburn, .b-our-partner__sprite-marquette, .b-our-partner__sprite-bloomsburg {
+    background: url(../static/template_fin.png) no-repeat;
+    width: 219px;
+    height: 128px;
+    margin: 5% auto;
+  }
+  
+  .b-our-partner__sprite-howard {
+    background-position: -210px -4825px;
+  }
+  
+  .b-our-partner__sprite-auburn {
+    background-position: -454px -4825px;
+  }
+  
+  .b-our-partner__sprite-marquette {
+    background-position: -696px -4825px;
+  }
+  
+  .b-our-partner__sprite-bloomsburg {
+    background-position: -940px -4825px;
+  }
+  
+  @media all and (min-width: 992px) {
+    .b-our-partner__sprite-howard, .b-our-partner__sprite-auburn, .b-our-partner__sprite-marquette, .b-our-partner__sprite-bloomsburg {
+      margin: 25% auto;
+    }
+  }
+  
+  .b-news {
+    text-align: center;
+  }
+  
+  .b-news h3, .b-news p {
+    color: #555252;
+    font-size: 0.961rem;
+    padding: 2% 1%;
+  }
+  
+  .b-news h3 {
+    font-family: 'OpenSans', sans-serif;
+    src: url("../fonts/OpenSans-Semibold.ttf");
+    font-size: 0.961rem;
+    font-weight: 600;
+  }
+  
+  .b-news p {
+    font-size: 0.747rem;
+    font-family: 'OpenSans', sans-serif;
+    src: url("../fonts/OpenSans-Light.ttf");
+    font-size: 0.747rem;
+    font-weight: 300;
+  }
+  
+  .b-news__line {
+    border-bottom: 2px solid #4ec6ab;
+    width: 117px;
+    margin: 2% auto 4% auto;
+  }
+  
+  .b-news button {
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color: #1abc9c;
+    font-size: 0.843rem;
+    font-weight: 300;
+  }
+  
+  .b-news button:hover {
+    opacity: 0.6;
+    color: #000000;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+  }
+  
+  .b-news__sprite-maps, .b-news__sprite-gerls, .b-news__sprite-bus {
+    background: url(../static/template_fin.png) no-repeat;
+    width: 299px;
+    height: 224px;
+    margin: 5% auto 10% auto;
+    position: relative;
+    top: 30px;
+  }
+  
+  .b-news__sprite-maps {
+    background-position: -209px -5235px;
+  }
+  
+  .b-news__sprite-gerls {
+    background-position: -533px -5235px;
+  }
+  
+  .b-news__sprite-bus {
+    background-position: -858px -5235px;
+  }
+  
+  @media all and (min-width: 992px) {
+    .b-news button {
+      width: 136px;
+      height: 45px;
+      padding: 0;
+      border: 1px solid #1abc9c;
+      border-radius: 3px;
+    }
+  }
+  
+  @media all and (min-width: 1200px) {
+    .my-width_news {
+      width: 75%;
+    }
+    .b-news h3, .b-news p {
+      text-align: left;
+      margin-left: 2.1%;
+      padding-right: 3%;
+    }
+    .b-news__line {
+      margin-left: 3.1%;
+    }
+    .b-news button {
+      margin: 10px 164px 0 0;
+    }
+  }
+  
+  .b-get-in-touch {
+    background: url(../static/get-in-touch.png);
+    margin-top: 15%;
+    color: #ffffff;
+  }
+  
+  .b-get-in-touch h2 {
+    color: #ffffff;
+  }
+  
+  .b-get-in-touch form {
+    text-align: center;
+    margin-top: 15%;
+  }
+  
+  form input, form textarea {
+    margin: 2% auto;
+    border: 0.85375px solid #ffffff;
+    background: none;
+    padding: 2% 6%;
+  }
+  
+  form ::-webkit-input-placeholder {
+    color: #ffffff;
+    font-size: 0.961rem;
+    font-weight: 300;
+  }
+  
+  form :-ms-input-placeholder {
+    color: #ffffff;
+    font-size: 0.961rem;
+    font-weight: 300;
+  }
+  
+  form ::-ms-input-placeholder {
+    color: #ffffff;
+    font-size: 0.961rem;
+    font-weight: 300;
+  }
+  
+  form ::placeholder {
+    color: #ffffff;
+    font-size: 0.961rem;
+    font-weight: 300;
+  }
+  
+  input:focus, textarea:focus {
+    color: #ffffff;
+    border: 0.85375px solid #35867A;
+  }
+  
+  input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+    color: #35867A;
+  }
+  
+  input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
+    color: #35867A;
+  }
+  
+  input:focus::-ms-input-placeholder, textarea:focus::-ms-input-placeholder {
+    color: #35867A;
+  }
+  
+  input:focus::placeholder, textarea:focus::placeholder {
+    color: #35867A;
+  }
+  
+  .b-contacts h3 {
+    font-family: 'Roboto', sans-serif;
+    src: url("../fonts/Robotomedium.ttf");
+    src: url("../fonts/Robotomedium.woff");
+    src: url("../fonts/Robotomedium.woff2");
+    font-size: 2.561rem;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 3.842rem;
+  }
+  
+  .b-contacts h3 span {
+    color: #4ec6ab;
+  }
+  
+  .b-contacts p {
+    font-family: 'Roboto', sans-serif;
+    src: url("../fonts/Robotomedium.ttf");
+    src: url("../fonts/Robotomedium.woff");
+    src: url("../fonts/Robotomedium.woff2");
+    font-size: 2.561rem;
+    font-weight: 300;
+    font-size: 0.747rem;
+    text-align: center;
+  }
+  
+  .b-contacts h4 {
+    font-family: 'Roboto', sans-serif;
+    src: url("../fonts/Robotomedium.ttf");
+    src: url("../fonts/Robotomedium.woff");
+    src: url("../fonts/Robotomedium.woff2");
+    font-size: 2.561rem;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 0.961rem;
+    text-align: center;
+  }
+  
+  .b-contacts address {
+    color: #ffffff;
+    font-size: 0.747rem;
+    font-weight: 300;
+  }
+  
+  .b-contacts address span {
+    color: #4ec6ab;
+    font-size: 0.747rem;
+    font-weight: 700;
+  }
+  
+  #send {
+    background-color: #4ec6ab;
+    color: #ffffff;
+    font-size: 0.854rem;
+    padding: 4% 15%;
+    border: 1px solid #4ec6ab;
+  }
+  
+  #send:hover {
+    opacity: 0.6;
+    color: #000000;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+  }
+  
+  .sprite-facebook, .sprite-facebook-2, .sprite-facebook-3, .sprite-facebook-4, .sprite-facebook-5, .sprite-facebook-6 {
+    background: url(../static/template_fin.png) no-repeat;
+    height: 27px;
+    width: 27px;
+  }
+  
+  .sprite-facebook {
+    background-position: -459px -6219px;
+    margin-bottom: 3rem;
+  }
+  
+  .sprite-facebook:hover {
+    background-position: -461px -6178px;
+  }
+  
+  .sprite-facebook-2 {
+    background-position: -492px -6219px;
+  }
+  
+  .sprite-facebook-2:hover {
+    background-position: -494px -6178px;
+  }
+  
+  .sprite-facebook-3 {
+    background-position: -525px -6219px;
+  }
+  
+  .sprite-facebook-3:hover {
+    background-position: -527px -6178px;
+  }
+  
+  .sprite-facebook-4 {
+    background-position: -559px -6219px;
+  }
+  
+  .sprite-facebook-4:hover {
+    background-position: -561px -6178px;
+  }
+  
+  .sprite-facebook-5 {
+    background-position: -593px -6219px;
+  }
+  
+  .sprite-facebook-5:hover {
+    background-position: -595px -6178px;
+  }
+  
+  .sprite-facebook-6 {
+    background-position: -628px -6219px;
+  }
+  
+  .sprite-facebook-6:hover {
+    background-position: -630px -6178px;
+  }
+  
+  @media all and (min-width: 992px) {
+    .b-get-in-touch {
+      margin-top: 5%;
+    }
+    .b-get-in-touch form {
+      text-align: left;
+    }
+    .b-get-in-touch form input {
+      width: 212px;
+      height: 44px;
+      position: relative;
+      left: 23px;
+      margin: 6% auto;
+    }
+    .b-get-in-touch form textarea {
+      width: 431px;
+      height: 103px;
+      position: relative;
+      left: 23px;
+      bottom: 12px;
+      margin: 6% auto;
+    }
+    .b-get-in-touch form .input {
+      margin-left: 34%;
+    }
+    .b-get-in-touch form #send {
+      position: relative;
+      bottom: 53px;
+      width: 130px;
+      height: 44px;
+      padding: 0;
+    }
+    .b-contacts h3, .b-contacts h4, .b-contacts p {
+      text-align: left;
+    }
+  }
+  
+  @media all and (min-width: 1200px) {
+    .b-get-in-touch form .input {
+      margin-left: 22%;
+      width: 217px;
+      height: 44px;
+    }
+    .b-get-in-touch form textarea {
+      width: 461px;
+      height: 103px;
+    }
+  }
+  
+  footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    padding: 2% 0 1% 0;
+  }
+  
+  .copy {
+    color: #1abc9c;
+  }
+  
+  .copy:hover {
+    text-decoration: none;
+    opacity: 0.7;
+  }
+  
+  .b-slider_button {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .b-slider_button h3 {
+    font-size: 1rem;
+  }
+  
+  .b-slider_button h3 span {
+    color: #1abc9c;
+  }
+  
+  .b-slider_button button {
+    color: #ffffff;
+    padding: 8px 20px 6px 20px;
+    background: none;
+    border: 2px solid #1abc9c;
+    font-size: 0.747rem;
+    margin-bottom: 2%;
+  }
+  
+  .b-slider_button button:hover {
+    background: #1abc9c;
+    opacity: 0.7;
+    color: #000000;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  
+  .b-slider_control-next__icon, .b-slider_control-prev__icon {
+    background-image: none;
+    background-color: #1abc9c;
+    width: 88px;
+    height: 89px;
+    position: absolute;
+    right: 0;
+  }
+  
+  .b-slider_control-next__icon span, .b-slider_control-prev__icon span {
+    font-size: 50px;
+  }
+  
+  .b-slider_control-prev__icon {
+    position: absolute;
+    left: 0;
+  }
+  
+  .b-slider_control-prev, .b-slider_control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+            align-items: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    color: #ffffff;
+    text-align: center;
+    opacity: 0.6;
+  }
+  
+  @media all and (min-width: 992px) {
+    .b-slider_button h3 {
+      font-family: 'Roboto', sans-serif;
+      src: url("../fonts/Robotomedium.ttf");
+      src: url("../fonts/Robotomedium.woff");
+      src: url("../fonts/Robotomedium.woff2");
+      font-size: 2.561rem;
+      font-weight: 300;
+    }
+    .b-slider_button h3 span {
+      font-weight: 600;
+    }
+  }
+  /*# sourceMappingURL=style.css.map */
